@@ -15,14 +15,14 @@
 :root{
     --bg-color:#fdfdfd;
     --text-color:#333;
-    --main-color:#754ef9;
+    --main-color:#06484b;
     --white-color:#fdfdfd;
     --shadow-color:rgba(0,0,0,.2);
 }
 
 .dark-mode{
     --bg-color:black;
-    --text-color:white;
+    --text-color:var(--main-color);
     --shadow-color:rgba(0,0,0,.7);
 }
 
@@ -263,15 +263,19 @@ color: var(--white-color);
 
     .home-img img{
         position: absolute;
-        bottom: 200px;
-        right: 50px;
-        width: 20%;
-        height: 50%;
+        top: 10px;
+        bottom: 150px;
+        right: 0;
+        left: 70px;
+        margin-right: .5px;
+        margin-left: 90em;
+        width: 45%;
+        height: 100%;
         pointer-events: none;
     }
      .about-img img{
-        height: 800%;
-        width: 70%;
+        height: 250px;
+        width: 100%;
     }
     span{
         color: var(--main-color);
@@ -370,18 +374,24 @@ color: var(--white-color);
         border-radius: 2rem;
         box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
         overflow: hidden;
+        border: 2px solid var(--main-color);
+        height: 200px;
     }
     .portfolio-box img{
+        border: 2 px solid black;
         width: 50%;
     }
+   
 
     .portfolio-box .portfolio-layer h4{
         font-size: 2rem;
         color: var(--main-color);
+        text-align: center;
     }
 
     .portfolio-box .portfolio-layer p{
         font-size: 1.6rem;
+        text-align:left;
     }
 
     .portfolio-box .portfolio-layer i{
