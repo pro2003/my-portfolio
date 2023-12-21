@@ -21,11 +21,11 @@
     --shadow-color:rgba(0,0,0,.2);
 }
 
-.dark-mode{
+/*.dark-mode{
     --bg-color:black;
     --text-color:var(--main-color);
     --shadow-color:rgba(0,0,0,.7);
-}
+}*/
 
 html{
     font-size: 62.5%;
@@ -103,16 +103,16 @@ body{
     display: none;
 }
 
-#darkMode-icon{
+/* #darkMode-icon{
     font-size: 2.4rem;
      color: var(--white-color);   
     cursor: pointer;
-}
-.header.sticky  #darkMode-icon{
+}*/
+/*.header.sticky  #darkMode-icon{
     margin-right: 50px;
     color: black;
     opacity: 1;
-}
+}*/
 
 section{
     min-height: 100hv;
