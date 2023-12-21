@@ -32,7 +32,7 @@ html{
 }
 
 body{
-    background:url(assets\port.jpg) no-repeat centre centre/cover;
+    background:url(assets/port.jpg) no-repeat centre centre/cover;
     color:var(--text-color);
 }
 
@@ -191,7 +191,7 @@ color: var(--white-color);
         transform: translateY(-50%);
         width: 768px;
         height: 768px;
-         background:url(assets\port.jpg) no-repeat centre centre/cover; 
+         background:url(assets/port.jpg) no-repeat centre centre/cover; 
         overflow: hidden;
         pointer-events: none; 
     }
